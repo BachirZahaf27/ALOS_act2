@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const utils = require('../utils/task-schema.js');
+const utils = require('../utils/newspapers-schema.js');
 const newspapers = require('../db.json')
 const { body, validationResult} = require('express-validator');
 const { check } = require('express-validator');
