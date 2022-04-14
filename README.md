@@ -3,7 +3,7 @@
 # Français:
 ### I) Étapes pour réaliser l'Activite-02 :
 
-1) Créez un projet et installez le package :
+### 1) Créez un projet et installez le package :
 
          npm init
 
