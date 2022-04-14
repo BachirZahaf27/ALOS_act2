@@ -59,11 +59,20 @@
 
 4) Créez index.js:              
 
-	![image](https://user-images.githubusercontent.com/61596276/163455628-416ca2f2-c97f-40d6-9dfc-12c7420c783c.png)
+	![image](https://user-images.githubusercontent.com/61596276/163459139-959133ed-8af0-4042-8a45-df24769d588a.png)
 
-5) Créer un dossier d'itinéraires avec 2 fichiers (News.js & Newspapers.js) comme 2 itinéraires
-	* Créer Newspapers.js
-6) Créer 2 middlewares dans index.js pour les routes News & Newspapers
+
+5) Créer un dossier d'itinéraires avec 2 fichiers (News.js & Newspapers.js) comme 2 itinéraires:
+	
+	![image](https://user-images.githubusercontent.com/61596276/163459327-acbc19dd-8d21-4b91-9f35-1cb95bd8c22b.png)
+
+	* Créer Newspapers.js:
+	 ![image](https://user-images.githubusercontent.com/61596276/163459726-e466042a-8edf-4f51-939b-7be1d6c4c3cb.png)
+	
+	* Créer News.js:
+	 ![image](https://user-images.githubusercontent.com/61596276/163460086-2df1ce81-4c08-4467-95ac-3f3c980ba29b.png)
+ 
+6) Créer 2 middlewares dans index.js pour les routes News & Newspapers:
 7) Créer des points de terminaison (GET, POST, PUT, DELETE) dans les deux routes
 8) Ajouter la validation et la Sanitation aux points de terminaison ('express-validation','Joi')
 9) Créez un dossier utils avec Newspapers-schema.js comme schéma pour Joi afin de valider l'entrée Put
