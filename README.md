@@ -47,7 +47,7 @@
 
 	 * package.json devrait ressembler à ça:			
 	 
-	 ![image](https://user-images.githubusercontent.com/61596276/163452773-57300def-802b-4188-bbb8-6d6cc4dc9b9b.png)
+	  ![image](https://user-images.githubusercontent.com/61596276/163452773-57300def-802b-4188-bbb8-6d6cc4dc9b9b.png)
 
          
 3) Créez db.json: 
@@ -64,13 +64,13 @@
 
 5) Créer un dossier d'itinéraires avec 2 fichiers (News.js & Newspapers.js) comme 2 itinéraires:
 	
-	![image](https://user-images.githubusercontent.com/61596276/163459327-acbc19dd-8d21-4b91-9f35-1cb95bd8c22b.png)
+	 ![image](https://user-images.githubusercontent.com/61596276/163459327-acbc19dd-8d21-4b91-9f35-1cb95bd8c22b.png)
 
 	* Créer Newspapers.js:
 	 
 	 ![image](https://user-images.githubusercontent.com/61596276/163459726-e466042a-8edf-4f51-939b-7be1d6c4c3cb.png)
 	 
-	 * Créér function de stocker les données pour utilisé:
+	* Créér function de stocker les données pour utilisé:
 	 
 	 ![image](https://user-images.githubusercontent.com/61596276/163460917-389dcf9e-083b-426f-a309-0d753d297471.png)
 	
@@ -121,9 +121,9 @@
 	
 	 ![image](https://user-images.githubusercontent.com/61596276/163467163-40a339c4-f824-4c78-811a-be82f1db1723.png)
 
-	* Ajouter la validation et la Sanitation aux POST endpoints(Joi) version:
+	* Ajouter la validation et la Sanitation aux POST endpoints (Joi) version:
 	
-	 ![image](https://user-images.githubusercontent.com/61596276/163467303-7b9ed476-0693-40a3-825f-bae3ba26c1af.png)
+	 ![image](https://user-images.githubusercontent.com/61596276/163472066-8b002c90-b744-4bba-bae3-472720e0944f.png)
  
 
 9) Créez un dossier utils avec Newspapers-schema.js comme schéma pour Joi afin de valider l'entrée PUT:
@@ -158,12 +158,13 @@
 
 	* Ajouter le test de PUT enpoints pour Newspapers.js:
 	
-	  ![image](https://user-images.githubusercontent.com/61596276/163469907-e4ae23fc-a60f-49e7-964a-14af77e0c93a.png)
-	  ![image](https://user-images.githubusercontent.com/61596276/163469973-b2f410b1-817b-464b-8180-69ad1a43f137.png)
+	 ![image](https://user-images.githubusercontent.com/61596276/163471542-4465e6c9-ee66-47b3-a032-e8178005d6a7.png)
+	  
 
 	* Ajouter le test de DELETE enpoints pour Newspapers.js:
 	
-	  ![image](https://user-images.githubusercontent.com/61596276/163470051-d1c7c918-3a5f-4c29-a6a3-25ab346e203b.png)
+	 ![image](https://user-images.githubusercontent.com/61596276/163470051-d1c7c918-3a5f-4c29-a6a3-25ab346e203b.png)
+	 ![image](https://user-images.githubusercontent.com/61596276/163471603-b8886a38-d518-4d29-95ea-fbe754dc9aa0.png)
 
 
 11) Vérifiez le POST en utilisant POSTMAN et 'express-validator' comme outil de validation:
@@ -184,7 +185,7 @@
 ### _________________________________________________________________________________________________________________________
 
 
-# English:       
+# English:(Still working on the EN version!!)     
 ### I) Steps to made the Activite-02:
 
 1) Create a project and install package:
