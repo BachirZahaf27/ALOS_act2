@@ -91,11 +91,41 @@
 
 7) Créer des points de terminaison (GET, POST, PUT, DELETE) dans les deux routes:
 
+	* GET endpoints pour Newspapers.js:
+	 
+	 ![image](https://user-images.githubusercontent.com/61596276/163462047-a6c8952f-e6a4-4212-a3c3-3dae8f33ae53.png)
+
+	* POST endpoints pour Newspapers.js:
+	 
+	 ![image](https://user-images.githubusercontent.com/61596276/163462146-0aa08ba0-6f1c-4292-9740-1064a7b6c976.png)
+
+	* PUT endpoints pour Newspapers.js:
+	
+	 ![image](https://user-images.githubusercontent.com/61596276/163462220-5678d124-148a-455e-96eb-c73fca9d32bf.png)
+
+	* DELETE endpoints pour Newspapers.js:
+	 
+	 ![image](https://user-images.githubusercontent.com/61596276/163462311-1a50ee70-8933-4606-ab9e-d0f49d91edca.png)
+
+	* GET endpoints pour News.js:
+	
+	 ![image](https://user-images.githubusercontent.com/61596276/163462471-1c4a3801-5b3b-41f0-bc4f-fe7119cdfc43.png)
+
 8) Ajouter la validation et la Sanitation aux points de terminaison ('express-validation','Joi')
+
+
 9) Créez un dossier utils avec Newspapers-schema.js comme schéma pour Joi afin de valider l'entrée Put
+
+
 10) Créer un dossier de test avec test.js pour pour testé l'API
+
+
 11) Vérifiez le POST en utilisant POSTMAN et 'express-validator' comme outil de validation
+
+
 12) Check the The PUT using POSTMAN and 'Joi' as a tool of validation
+
+
 13)Lancez les tests de l'API :
 
 		npm run test
