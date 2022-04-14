@@ -113,9 +113,25 @@
 
 8) Ajouter la validation et la Sanitation aux points de terminaison ('express-validation','Joi')
 
+	* Import the packages:
+	
+	 ![image](https://user-images.githubusercontent.com/61596276/163465532-602d6e20-8994-4178-8fda-1e0d6c8d938d.png)
 
-9) Créez un dossier utils avec Newspapers-schema.js comme schéma pour Joi afin de valider l'entrée Put
+	* Ajouter la validation et la Sanitation aux GET endpoints (express-validion) version:
+	
+	 ![image](https://user-images.githubusercontent.com/61596276/163467163-40a339c4-f824-4c78-811a-be82f1db1723.png)
 
+	* Ajouter la validation et la Sanitation aux POST endpoints(Joi) version:
+	
+	 ![image](https://user-images.githubusercontent.com/61596276/163467303-7b9ed476-0693-40a3-825f-bae3ba26c1af.png)
+ 
+
+9) Créez un dossier utils avec Newspapers-schema.js comme schéma pour Joi afin de valider l'entrée PUT
+
+	![image](https://user-images.githubusercontent.com/61596276/163467922-f00fdd2d-2194-4cef-8682-67f43e05bdf6.png)
+	
+	* Créez schéma pour valider l'entrée PUT:
+	![image](https://user-images.githubusercontent.com/61596276/163467772-54afaa7a-bf84-4663-aaa7-9802bc65119c.png)
 
 10) Créer un dossier de test avec test.js pour pour testé l'API
 
