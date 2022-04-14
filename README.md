@@ -67,13 +67,30 @@
 	![image](https://user-images.githubusercontent.com/61596276/163459327-acbc19dd-8d21-4b91-9f35-1cb95bd8c22b.png)
 
 	* Créer Newspapers.js:
+	 
 	 ![image](https://user-images.githubusercontent.com/61596276/163459726-e466042a-8edf-4f51-939b-7be1d6c4c3cb.png)
+	 
+	 * Créér function de stocker les données pour utilisé:
+	 
+	 ![image](https://user-images.githubusercontent.com/61596276/163460917-389dcf9e-083b-426f-a309-0d753d297471.png)
 	
 	* Créer News.js:
+	 
 	 ![image](https://user-images.githubusercontent.com/61596276/163460086-2df1ce81-4c08-4467-95ac-3f3c980ba29b.png)
+	 
+	* Créér function de stocker les données pour utilisé:
+
+	 ![image](https://user-images.githubusercontent.com/61596276/163461224-4ed18c28-a448-463c-be66-9cc57136c67d.png)
+
+
  
 6) Créer 2 middlewares dans index.js pour les routes News & Newspapers:
-7) Créer des points de terminaison (GET, POST, PUT, DELETE) dans les deux routes
+	
+	 ![image](https://user-images.githubusercontent.com/61596276/163460407-6d4dd081-73fd-470a-8da8-0675901325c5.png)
+
+
+7) Créer des points de terminaison (GET, POST, PUT, DELETE) dans les deux routes:
+
 8) Ajouter la validation et la Sanitation aux points de terminaison ('express-validation','Joi')
 9) Créez un dossier utils avec Newspapers-schema.js comme schéma pour Joi afin de valider l'entrée Put
 10) Créer un dossier de test avec test.js pour pour testé l'API
