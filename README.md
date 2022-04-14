@@ -51,14 +51,18 @@
 
          
 3) Créez db.json: 
-		* (id): Entré le Identifiant de le jornal 
-		* (website): Entré le site officiel de le jornal 
-		* (address): Entré le site web spécifique au changement climatique de le jornal
-		* (base): Entré le site officiel de le jornal (just pour le error de gratter l'API)
+		
+	* (id): Entré le Identifiant de le jornal. 
+	* (website): Entré le site officiel de le jornal. 
+	* (address): Entré le site web spécifique au changement climatique de le jornal.
+	* (base): Entré le site officiel de le jornal (just pour le error de gratter l'API).
 
 4) Créez index.js:              
 
+	![image](https://user-images.githubusercontent.com/61596276/163455628-416ca2f2-c97f-40d6-9dfc-12c7420c783c.png)
+
 5) Créer un dossier d'itinéraires avec 2 fichiers (News.js & Newspapers.js) comme 2 itinéraires
+	* Créer Newspapers.js
 6) Créer 2 middlewares dans index.js pour les routes News & Newspapers
 7) Créer des points de terminaison (GET, POST, PUT, DELETE) dans les deux routes
 8) Ajouter la validation et la Sanitation aux points de terminaison ('express-validation','Joi')
@@ -123,14 +127,16 @@
 				npm i nodemon
 
 	 * package.json should looks like this:
+	 
 	 ![image](https://user-images.githubusercontent.com/61596276/163452813-3b16244f-32b4-4b94-9e52-46576fe0719c.png)
 
          
 3) Create db.json:
-		* (id): Entered in log id
-		* (website): Entered from the official website of the newspaper
-		* (address): Entered the specific climate change website of the newspaper
-		* (base): Entered from the official newspaper site (just for the error of scratching the API)
+		
+	* (id): Entered in log id.
+	* (website): Entered from the official website of the newspaper.
+	* (address): Entered the specific climate change website of the newspaper.
+	* (base): Entered from the official newspaper site (just for the error of scratching the API).
 
 4) Create index.js              
 5) Create routes folder with 2 files (News.js & Newspapers.js) as the 2 routes 
