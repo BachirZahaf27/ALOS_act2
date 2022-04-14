@@ -7,173 +7,185 @@
 
          npm init
 
-2) Installez tous les outils :
+### 2) Installez tous les outils :
          
-         https://bachir-zahaf.gitbook.io/live-climate-change-api/reference/api-reference/tools
+        https://bachir-zahaf.gitbook.io/live-climate-change-api/reference/api-reference/tools
 	 
-	 * Axios:
+* Axios:
 	 			
 				npm i axios
-	 * Chai:
+* Chai:
 	 			
 				npm i chai
-	 * Chai-http:
+* Chai-http:
 	 			
 				npm i chai-http
-	 * Cheerio:
+* Cheerio:
 	 			
 				npm i cheerio
-	 * Express:
+* Express:
 	 			
 				npm i express
-	 * Express-validation:
+* Express-validation:
 	 			
 				npm i express-validation
-	 * Express-validator:
+* Express-validator:
 	 			
 				npm i express-validator
-	 * Joi:
+* Joi:
 	 			
 				npm i joi@14.3.1
-	 * Validation:
+* Validation:
 	 			
 				npm i validation
-	 * Mocha:
+* Mocha:
 	 			
 				npm i mocha
-	 * Nodemon:
+* Nodemon:
 	 			
 				npm i nodemon
 
-	 * package.json devrait ressembler à ça:			
+* package.json devrait ressembler à ça:			
 	 
-	  ![image](https://user-images.githubusercontent.com/61596276/163452773-57300def-802b-4188-bbb8-6d6cc4dc9b9b.png)
+   ![image](https://user-images.githubusercontent.com/61596276/163452773-57300def-802b-4188-bbb8-6d6cc4dc9b9b.png)
 
          
-3) Créez db.json: 
+
+### 3) Créez db.json: 
 		
-	* (id): Entré le Identifiant de le jornal. 
-	* (website): Entré le site officiel de le jornal. 
-	* (address): Entré le site web spécifique au changement climatique de le jornal.
-	* (base): Entré le site officiel de le jornal (just pour le error de gratter l'API).
-
-4) Créez index.js:              
-
-	![image](https://user-images.githubusercontent.com/61596276/163459139-959133ed-8af0-4042-8a45-df24769d588a.png)
+* (id): Entré le Identifiant de le jornal. 
+* (website): Entré le site officiel de le jornal. 
+* (address): Entré le site web spécifique au changement climatique de le jornal.
+* (base): Entré le site officiel de le jornal (just pour le error de gratter l'API).
 
 
-5) Créer un dossier d'itinéraires avec 2 fichiers (News.js & Newspapers.js) comme 2 itinéraires:
+
+### 4) Créez index.js:              
+
+   ![image](https://user-images.githubusercontent.com/61596276/163459139-959133ed-8af0-4042-8a45-df24769d588a.png)
+
+
+
+### 5) Créer un dossier d'itinéraires avec 2 fichiers (News.js & Newspapers.js) comme 2 itinéraires:
 	
-	 ![image](https://user-images.githubusercontent.com/61596276/163459327-acbc19dd-8d21-4b91-9f35-1cb95bd8c22b.png)
+   ![image](https://user-images.githubusercontent.com/61596276/163459327-acbc19dd-8d21-4b91-9f35-1cb95bd8c22b.png)
 
-	* Créer Newspapers.js:
+* Créer Newspapers.js:
 	 
-	 ![image](https://user-images.githubusercontent.com/61596276/163459726-e466042a-8edf-4f51-939b-7be1d6c4c3cb.png)
+  ![image](https://user-images.githubusercontent.com/61596276/163459726-e466042a-8edf-4f51-939b-7be1d6c4c3cb.png)
 	 
-	* Créér function de stocker les données pour utilisé:
+* Créér function de stocker les données pour utilisé:
 	 
 	 ![image](https://user-images.githubusercontent.com/61596276/163460917-389dcf9e-083b-426f-a309-0d753d297471.png)
 	
-	* Créer News.js:
+* Créer News.js:
 	 
-	 ![image](https://user-images.githubusercontent.com/61596276/163460086-2df1ce81-4c08-4467-95ac-3f3c980ba29b.png)
+  ![image](https://user-images.githubusercontent.com/61596276/163460086-2df1ce81-4c08-4467-95ac-3f3c980ba29b.png)
 	 
-	* Créér function de stocker les données pour utilisé:
+* Créér function de stocker les données pour utilisé:
 
-	 ![image](https://user-images.githubusercontent.com/61596276/163461224-4ed18c28-a448-463c-be66-9cc57136c67d.png)
+  ![image](https://user-images.githubusercontent.com/61596276/163461224-4ed18c28-a448-463c-be66-9cc57136c67d.png)
 
 
  
-6) Créer 2 middlewares dans index.js pour les routes News & Newspapers:
+### 6) Créer 2 middlewares dans index.js pour les routes News & Newspapers:
 	
-	 ![image](https://user-images.githubusercontent.com/61596276/163460407-6d4dd081-73fd-470a-8da8-0675901325c5.png)
+   ![image](https://user-images.githubusercontent.com/61596276/163460407-6d4dd081-73fd-470a-8da8-0675901325c5.png)
 
 
-7) Créer des points de terminaison (GET, POST, PUT, DELETE) dans les deux routes:
 
-	* GET endpoints pour Newspapers.js:
+### 7) Créer des points de terminaison (GET, POST, PUT, DELETE) dans les deux routes:
+
+* GET endpoints pour Newspapers.js:
 	 
-	 ![image](https://user-images.githubusercontent.com/61596276/163462047-a6c8952f-e6a4-4212-a3c3-3dae8f33ae53.png)
+  ![image](https://user-images.githubusercontent.com/61596276/163462047-a6c8952f-e6a4-4212-a3c3-3dae8f33ae53.png)
 
-	* POST endpoints pour Newspapers.js:
+* POST endpoints pour Newspapers.js:
 	 
-	 ![image](https://user-images.githubusercontent.com/61596276/163462146-0aa08ba0-6f1c-4292-9740-1064a7b6c976.png)
+  ![image](https://user-images.githubusercontent.com/61596276/163462146-0aa08ba0-6f1c-4292-9740-1064a7b6c976.png)
 
-	* PUT endpoints pour Newspapers.js:
+* PUT endpoints pour Newspapers.js:
 	
-	 ![image](https://user-images.githubusercontent.com/61596276/163462220-5678d124-148a-455e-96eb-c73fca9d32bf.png)
+  ![image](https://user-images.githubusercontent.com/61596276/163462220-5678d124-148a-455e-96eb-c73fca9d32bf.png)
 
-	* DELETE endpoints pour Newspapers.js:
+* DELETE endpoints pour Newspapers.js:
 	 
-	 ![image](https://user-images.githubusercontent.com/61596276/163462311-1a50ee70-8933-4606-ab9e-d0f49d91edca.png)
+  ![image](https://user-images.githubusercontent.com/61596276/163462311-1a50ee70-8933-4606-ab9e-d0f49d91edca.png)
 
-	* GET endpoints pour News.js:
+* GET endpoints pour News.js:
 	
-	 ![image](https://user-images.githubusercontent.com/61596276/163462471-1c4a3801-5b3b-41f0-bc4f-fe7119cdfc43.png)
+ ![image](https://user-images.githubusercontent.com/61596276/163462471-1c4a3801-5b3b-41f0-bc4f-fe7119cdfc43.png)
 
-8) Ajouter la validation et la Sanitation aux points de terminaison ('express-validation','Joi')
 
-	* Import the packages:
+
+### 8) Ajouter la validation et la Sanitation aux points de terminaison ('express-validation','Joi')
+
+* Import the packages:
 	
-	 ![image](https://user-images.githubusercontent.com/61596276/163465532-602d6e20-8994-4178-8fda-1e0d6c8d938d.png)
+  ![image](https://user-images.githubusercontent.com/61596276/163465532-602d6e20-8994-4178-8fda-1e0d6c8d938d.png)
 
-	* Ajouter la validation et la Sanitation aux GET endpoints (express-validion) version:
+* Ajouter la validation et la Sanitation aux GET endpoints (express-validion) version:
 	
-	 ![image](https://user-images.githubusercontent.com/61596276/163467163-40a339c4-f824-4c78-811a-be82f1db1723.png)
+  ![image](https://user-images.githubusercontent.com/61596276/163467163-40a339c4-f824-4c78-811a-be82f1db1723.png)
 
-	* Ajouter la validation et la Sanitation aux POST endpoints (Joi) version:
+* Ajouter la validation et la Sanitation aux POST endpoints (Joi) version:
 	
-	 ![image](https://user-images.githubusercontent.com/61596276/163472066-8b002c90-b744-4bba-bae3-472720e0944f.png)
+  ![image](https://user-images.githubusercontent.com/61596276/163472066-8b002c90-b744-4bba-bae3-472720e0944f.png)
  
 
-9) Créez un dossier utils avec Newspapers-schema.js comme schéma pour Joi afin de valider l'entrée PUT:
 
-	 ![image](https://user-images.githubusercontent.com/61596276/163467922-f00fdd2d-2194-4cef-8682-67f43e05bdf6.png)
-	
-	* Créez schéma pour valider l'entrée PUT:
-	
-	 ![image](https://user-images.githubusercontent.com/61596276/163467772-54afaa7a-bf84-4663-aaa7-9802bc65119c.png)
+### 9) Créez un dossier utils avec Newspapers-schema.js comme schéma pour Joi afin de valider l'entrée PUT:
 
-10) Créer un dossier de test avec test.js pour pour testé l'API:
-
-	* Ajouter le test de GET enpoints pour Newspapers.js:
+   ![image](https://user-images.githubusercontent.com/61596276/163467922-f00fdd2d-2194-4cef-8682-67f43e05bdf6.png)
 	
-	 ![image](https://user-images.githubusercontent.com/61596276/163469314-9009246b-e5f2-47d7-b733-29d706817f62.png)
-
-	* Ajouter le test de (GET par id) enpoints pour Newspapers.js:
+* Créez schéma pour valider l'entrée PUT:
 	
-	 ![image](https://user-images.githubusercontent.com/61596276/163469426-b607669e-e71b-4552-b5fe-9d0703bd0ecc.png)
+  ![image](https://user-images.githubusercontent.com/61596276/163467772-54afaa7a-bf84-4663-aaa7-9802bc65119c.png)
 
-	* Ajouter le test de GET enpoints pour News.js:
-	
-	 ![image](https://user-images.githubusercontent.com/61596276/163469480-bb79f15f-6a92-49e8-b371-c1e977378075.png)
 
-	* Ajouter le test de (GET par id) enpoints pour News.js:
-	
-	 ![image](https://user-images.githubusercontent.com/61596276/163469522-1bf290ab-885d-4829-ae5e-0752b77083b0.png)
 
-	* Ajouter le test de POST enpoints pour Newspapers.js:
-	
-	 ![image](https://user-images.githubusercontent.com/61596276/163469667-b81f7f90-628b-490e-ad34-7d41c09364e1.png)
+### 10) Créer un dossier de test avec test.js pour pour testé l'API:
 
-	* Ajouter le test de PUT enpoints pour Newspapers.js:
+* Ajouter le test de GET enpoints pour Newspapers.js:
 	
-	 ![image](https://user-images.githubusercontent.com/61596276/163471542-4465e6c9-ee66-47b3-a032-e8178005d6a7.png)
+  ![image](https://user-images.githubusercontent.com/61596276/163469314-9009246b-e5f2-47d7-b733-29d706817f62.png)
+
+* Ajouter le test de (GET par id) enpoints pour Newspapers.js:
+	
+  ![image](https://user-images.githubusercontent.com/61596276/163469426-b607669e-e71b-4552-b5fe-9d0703bd0ecc.png)
+
+* Ajouter le test de GET enpoints pour News.js:
+	
+  ![image](https://user-images.githubusercontent.com/61596276/163469480-bb79f15f-6a92-49e8-b371-c1e977378075.png)
+
+* Ajouter le test de (GET par id) enpoints pour News.js:
+	
+  ![image](https://user-images.githubusercontent.com/61596276/163469522-1bf290ab-885d-4829-ae5e-0752b77083b0.png)
+
+* Ajouter le test de POST enpoints pour Newspapers.js:
+	
+  ![image](https://user-images.githubusercontent.com/61596276/163469667-b81f7f90-628b-490e-ad34-7d41c09364e1.png)
+
+* Ajouter le test de PUT enpoints pour Newspapers.js:
+	
+  ![image](https://user-images.githubusercontent.com/61596276/163471542-4465e6c9-ee66-47b3-a032-e8178005d6a7.png)
 	  
-
-	* Ajouter le test de DELETE enpoints pour Newspapers.js:
+* Ajouter le test de DELETE enpoints pour Newspapers.js:
 	
-	 ![image](https://user-images.githubusercontent.com/61596276/163470051-d1c7c918-3a5f-4c29-a6a3-25ab346e203b.png)
-	 ![image](https://user-images.githubusercontent.com/61596276/163471603-b8886a38-d518-4d29-95ea-fbe754dc9aa0.png)
+  ![image](https://user-images.githubusercontent.com/61596276/163470051-d1c7c918-3a5f-4c29-a6a3-25ab346e203b.png)
+  ![image](https://user-images.githubusercontent.com/61596276/163471603-b8886a38-d518-4d29-95ea-fbe754dc9aa0.png)
 
 
-11) Vérifiez le POST en utilisant POSTMAN et 'express-validator' comme outil de validation:
+
+### 11) Vérifiez le POST en utilisant POSTMAN et 'express-validator' comme outil de validation:
 
 
-12) Check the The PUT using POSTMAN and 'Joi' as a tool of validation
+
+### 12) Check the The PUT using POSTMAN and 'Joi' as a tool of validation
 
 
-13)Lancez les tests de l'API :
+
+### 13)Lancez les tests de l'API :
 
 		npm run test
 
