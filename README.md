@@ -10,6 +10,45 @@
 2) Installez tous les outils :
          
          https://bachir-zahaf.gitbook.io/live-climate-change-api/reference/api-reference/tools
+	 
+	 1-Axios:
+	 			
+				npm i axios
+	 2-Chai:
+	 			
+				npm i chai
+	 3-Chai-http:
+	 			
+				npm i chai-http
+	 4-Cheerio:
+	 			
+				npm i cheerio
+	 5-Express:
+	 			
+				npm i express
+	 6-Express-validation:
+	 			
+				npm i express-validation
+	 7-Express-validator:
+	 			
+				npm i express-validator
+	 8-Joi:
+	 			
+				npm i joi@14.3.1
+	 9-Validation:
+	 			
+				npm i validation
+	 10-Mocha:
+	 			
+				npm i mocha
+	 11-Nodemon:
+	 			
+				npm i nodemon
+
+	 			
+	 
+	 ![image](https://user-images.githubusercontent.com/61596276/163452773-57300def-802b-4188-bbb8-6d6cc4dc9b9b.png)
+
          
 3) Créez db.json
 4) Créez index.js              
@@ -43,6 +82,9 @@
 2) Install all the tools
          
          https://bachir-zahaf.gitbook.io/live-climate-change-api/reference/api-reference/tools
+	 
+	 ![image](https://user-images.githubusercontent.com/61596276/163452813-3b16244f-32b4-4b94-9e52-46576fe0719c.png)
+
          
 3) Create db.json
 4) Create index.js              
