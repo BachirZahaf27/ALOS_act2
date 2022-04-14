@@ -126,17 +126,47 @@
 	 ![image](https://user-images.githubusercontent.com/61596276/163467303-7b9ed476-0693-40a3-825f-bae3ba26c1af.png)
  
 
-9) Créez un dossier utils avec Newspapers-schema.js comme schéma pour Joi afin de valider l'entrée PUT
+9) Créez un dossier utils avec Newspapers-schema.js comme schéma pour Joi afin de valider l'entrée PUT:
 
-	![image](https://user-images.githubusercontent.com/61596276/163467922-f00fdd2d-2194-4cef-8682-67f43e05bdf6.png)
+	 ![image](https://user-images.githubusercontent.com/61596276/163467922-f00fdd2d-2194-4cef-8682-67f43e05bdf6.png)
 	
 	* Créez schéma pour valider l'entrée PUT:
-	![image](https://user-images.githubusercontent.com/61596276/163467772-54afaa7a-bf84-4663-aaa7-9802bc65119c.png)
+	
+	 ![image](https://user-images.githubusercontent.com/61596276/163467772-54afaa7a-bf84-4663-aaa7-9802bc65119c.png)
 
-10) Créer un dossier de test avec test.js pour pour testé l'API
+10) Créer un dossier de test avec test.js pour pour testé l'API:
+
+	* Ajouter le test de GET enpoints pour Newspapers.js:
+	
+	 ![image](https://user-images.githubusercontent.com/61596276/163469314-9009246b-e5f2-47d7-b733-29d706817f62.png)
+
+	* Ajouter le test de (GET par id) enpoints pour Newspapers.js:
+	
+	 ![image](https://user-images.githubusercontent.com/61596276/163469426-b607669e-e71b-4552-b5fe-9d0703bd0ecc.png)
+
+	* Ajouter le test de GET enpoints pour News.js:
+	
+	 ![image](https://user-images.githubusercontent.com/61596276/163469480-bb79f15f-6a92-49e8-b371-c1e977378075.png)
+
+	* Ajouter le test de (GET par id) enpoints pour News.js:
+	
+	 ![image](https://user-images.githubusercontent.com/61596276/163469522-1bf290ab-885d-4829-ae5e-0752b77083b0.png)
+
+	* Ajouter le test de POST enpoints pour Newspapers.js:
+	
+	 ![image](https://user-images.githubusercontent.com/61596276/163469667-b81f7f90-628b-490e-ad34-7d41c09364e1.png)
+
+	* Ajouter le test de PUT enpoints pour Newspapers.js:
+	
+	  ![image](https://user-images.githubusercontent.com/61596276/163469907-e4ae23fc-a60f-49e7-964a-14af77e0c93a.png)
+	  ![image](https://user-images.githubusercontent.com/61596276/163469973-b2f410b1-817b-464b-8180-69ad1a43f137.png)
+
+	* Ajouter le test de DELETE enpoints pour Newspapers.js:
+	
+	  ![image](https://user-images.githubusercontent.com/61596276/163470051-d1c7c918-3a5f-4c29-a6a3-25ab346e203b.png)
 
 
-11) Vérifiez le POST en utilisant POSTMAN et 'express-validator' comme outil de validation
+11) Vérifiez le POST en utilisant POSTMAN et 'express-validator' comme outil de validation:
 
 
 12) Check the The PUT using POSTMAN and 'Joi' as a tool of validation
