@@ -176,16 +176,36 @@
   ![image](https://user-images.githubusercontent.com/61596276/163471603-b8886a38-d518-4d29-95ea-fbe754dc9aa0.png)
 
 
+### 11) Vérifiez le GET en utilisant POSTMAN pour Newspapers.js:
 
-### 11) Vérifiez le POST en utilisant POSTMAN et 'express-validator' comme outil de validation:
+   ![image](https://user-images.githubusercontent.com/61596276/163564544-752e5876-1d41-4965-b8e6-6734752902c5.png)
+
+### 12) Vérifiez le GET (par identifiant) en utilisant POSTMAN pour Newspapers.js:
+
+   ![image](https://user-images.githubusercontent.com/61596276/163564601-00cee974-eba6-4903-be71-bac9771b6952.png)
+
+### 13) Vérifiez le GET en utilisant POSTMAN pour News.js:
+
+   ![image](https://user-images.githubusercontent.com/61596276/163564670-cd7b486d-153a-4234-9b42-e42a57612340.png)
+
+### 14) Vérifiez le GET (par identifiant) en utilisant POSTMAN pour News.js:
+
+   ![image](https://user-images.githubusercontent.com/61596276/163564718-4cacd9bf-d92a-4e7c-a314-e9abcdefbfbb.png)
+
+### 15) Vérifiez le POST en utilisant POSTMAN et 'express-validator' comme outil de validation:
+
+   * Validation de nom de jornal:
+   * 
+   * Validation de site offical de jornal:
+   * 
+   * Validation de address de jornal:
+   * Validation de base de jornal
+
+### 16) Vérifiez le PUT en utilisant POSTMAN et 'Joi' comme outil de validation:
 
 
 
-### 12) Check the The PUT using POSTMAN and 'Joi' as a tool of validation
-
-
-
-### 13)Lancez les tests de l'API :
+### 17)Lancez les tests de l'API :
 
 		npm run test
 
