@@ -195,19 +195,46 @@
 ### 15) Vérifiez le POST en utilisant POSTMAN et 'express-validator' comme outil de validation:
 
    * Validation de nom de jornal:
-   * 
+   
+   ![image](https://user-images.githubusercontent.com/61596276/163568818-80611b20-1c27-4ab1-8449-abc8e31f5eb0.png)
+
    * Validation de site offical de jornal:
-   * 
+   
+   ![image](https://user-images.githubusercontent.com/61596276/163568725-7e95261a-ea6d-4e65-ae12-189fb7590199.png)
+
    * Validation de address de jornal:
-   * Validation de base de jornal
+   
+   ![image](https://user-images.githubusercontent.com/61596276/163568465-53f2a80f-745c-4a9a-8ae8-68bed396791a.png)
+
+   * Validation de base de jornal:
+   
+   ![image](https://user-images.githubusercontent.com/61596276/163568387-6bb672ed-447c-4973-9202-cecc44657a8c.png)
+
 
 ### 16) Vérifiez le PUT en utilisant POSTMAN et 'Joi' comme outil de validation:
+
+   * Validation de nom de jornal:
+   
+   ![image](https://user-images.githubusercontent.com/61596276/163569695-ddc7b7ba-1331-43ed-89f0-91be3ba4c350.png)
+
+   * Validation de site offical de jornal:
+   
+   ![image](https://user-images.githubusercontent.com/61596276/163569764-3ffa860a-d963-4b81-9687-6e4e425117be.png)
+
+   * Validation de address de jornal:
+   
+   ![image](https://user-images.githubusercontent.com/61596276/163569879-6fe6f073-f4f5-4e03-beed-eca5ee9edf0c.png)
+
+   * Validation de base de jornal:
+   
+   ![image](https://user-images.githubusercontent.com/61596276/163570019-34c747f5-8b6b-4b57-b84e-eb7e68076ead.png)
 
 
 
 ### 17)Lancez les tests de l'API :
 
 		npm run test
+
 
        
 ### II) Documentation:
