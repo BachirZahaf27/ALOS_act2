@@ -234,6 +234,7 @@
 ### 17)Lancez les tests de l'API :
 
 		npm run test
+![image](https://user-images.githubusercontent.com/61596276/163572985-f521a989-6825-4e58-b2ae-3f78858afd1d.png)
 
 
        
@@ -241,83 +242,3 @@
 
       https://bachir-zahaf.gitbook.io/live-climate-change-api/
       
-### _________________________________________________________________________________________________________________________
-
-
-# English:(Still working on the EN version!!)     
-### I) Steps to made the Activite-02:
-
-1) Create a project and install package:
-
-         npm init
-
-2) Install all the tools
-         
-         https://bachir-zahaf.gitbook.io/live-climate-change-api/reference/api-reference/tools
-	  1-Axios:
-	 			
-				npm i axios
-	 2-Chai:
-	 			
-				npm i chai
-	 3-Chai-http:
-	 			
-				npm i chai-http
-	 4-Cheerio:
-	 			
-				npm i cheerio
-	 5-Express:
-	 			
-				npm i express
-	 6-Express-validation:
-	 			
-				npm i express-validation
-	 7-Express-validator:
-	 			
-				npm i express-validator
-	 8-Joi:
-	 			
-				npm i joi@14.3.1
-	 9-Validation:
-	 			
-				npm i validation
-	 10-Mocha:
-	 			
-				npm i mocha
-	 11-Nodemon:
-	 			
-				npm i nodemon
-
-	 * package.json should looks like this:
-	 
-	 ![image](https://user-images.githubusercontent.com/61596276/163452813-3b16244f-32b4-4b94-9e52-46576fe0719c.png)
-
-         
-3) Create db.json:
-		
-	* (id): Entered in log id.
-	* (website): Entered from the official website of the newspaper.
-	* (address): Entered the specific climate change website of the newspaper.
-	* (base): Entered from the official newspaper site (just for the error of scratching the API).
-
-4) Create index.js              
-5) Create routes folder with 2 files (News.js & Newspapers.js) as the 2 routes 
-6) Create 2 Middlewares in index.js for the News & Newspapers routes
-7) Create (GET,POST,PUT,DELETE) endpoints in both routes
-8) Add Validation and Sansitation to the endpoints ('express-validation','Joi')
-9) Create utils folder with newspapers-schema.js as Schema for Joi to validate the Put input
-10) Create test folder with test.js as test file for API
-11) Check the The POST using POSTMAN and 'express-validator' as a tool of validation
-12) Check the The PUT using POSTMAN and 'Joi' as a tool of validation
-13) Launch the API testing :
-
-		npm run test
-
-       
-### II) Documentation:
-
-      https://bachir-zahaf.gitbook.io/live-climate-change-api/
-      
-
-
-
